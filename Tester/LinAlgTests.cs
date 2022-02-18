@@ -20,5 +20,21 @@ namespace Tester
                 "Result should have been " + resultingVector + " but was " + experimentalResult
             );
         }
+
+        [TestMethod]
+        public void vectorAdditionTest()
+        {
+            double[] v1 = {3, 8, 5};
+            double[] v2 = {9, 4, 2};
+            double[] result = {
+                3 + 9,
+                8 + 4,
+                5 + 2
+            };
+
+            double[] experimentalResult = LinAlg.addVectors(v1, v2);
+
+            Assert.IsTrue(LinAlg.vectorsAreEqual(result, experimentalResult));
+        }
     }
 }
