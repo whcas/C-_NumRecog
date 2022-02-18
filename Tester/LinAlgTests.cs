@@ -36,5 +36,16 @@ namespace Tester
 
             Assert.IsTrue(LinAlg.vectorsAreEqual(result, experimentalResult));
         }
+
+        [TestMethod]
+        public void getColumnTest()
+        {
+            double[,] m1 = { { 4, 2 }, { 2, 3 }, { 7, 8 } };
+            double[] column = { 4, 2 };
+
+            double[] experimentalResult = LinAlg.getColumn(m1, 0);
+
+            Assert.IsTrue(LinAlg.vectorsAreEqual(column, experimentalResult));
+        }
     }
 }
