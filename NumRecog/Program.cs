@@ -11,6 +11,8 @@ namespace MyProgram
 
             NeuralNet nn = new NeuralNet(images.getImages(), 60000);
 
+            //Console.WriteLine(nn.testCostRandomImage());
+
             while (true)
             {
                 nn.train(1000, epochLength : 5000, testEveryEpoch : true, epochTestSize : 1000);

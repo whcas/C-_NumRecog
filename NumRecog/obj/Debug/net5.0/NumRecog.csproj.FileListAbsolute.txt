@@ -20,3 +20,25 @@ C:\Users\Will\Documents\Computer Science Year 1\MyProjects\C# ML\NumRecog\obj\De
 C:\Users\Will\Documents\Computer Science Year 1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\ref\NumRecog.dll
 C:\Users\Will\Documents\Computer Science Year 1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.pdb
 C:\Users\Will\Documents\Computer Science Year 1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.genruntimeconfig.cache
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\NumRecog.exe
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\NumRecog.deps.json
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\NumRecog.runtimeconfig.json
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\NumRecog.runtimeconfig.dev.json
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\NumRecog.dll
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\ref\NumRecog.dll
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\NumRecog.pdb
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.csprojAssemblyReference.cache
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.AssemblyInfoInputs.cache
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.AssemblyInfo.cs
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.csproj.CoreCompileInputs.cache
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.csproj.CopyComplete
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.dll
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\ref\NumRecog.dll
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.pdb
+C:\Users\Will\Documents\Computer Science Uni\ComputerScience_Year1\MyProjects\C# ML\NumRecog\obj\Debug\net5.0\NumRecog.genruntimeconfig.cache

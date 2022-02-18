@@ -61,7 +61,7 @@ namespace NumRecog
 
         private void generateWeights(int numNodes)
         {
-            weights = MLCore.getRandomDoubleArray(0, 1, numNodes, previous.getNumActivations());
+            weights = MLCore.getRandomDoubleArray(0, 1, previous.getNumActivations(), numNodes);
         }
         private void generateBiases(int numNodes)
         {
@@ -72,7 +72,7 @@ namespace NumRecog
         {
             if (activationsCalculated == false) calcActivations();
 
-            double[] answers = new double[weights.GetLength(0)];
+            double[] answers = new double[weights.GetLength(1)];
             answers[ans] = 1.0;
 
             return LinAlg.sumSquareDiff(activations, answers);
@@ -159,9 +159,12 @@ namespace NumRecog
             actCostDers = activations;
             for (int k = 0; k < activations.Length; k++)
             {
-                for (int j = 0; j < nextWeights.GetLength(0); j++)
+                for (int j = 0; j < nextWeights.GetLength(1); j++)
                 {
-                    actCostDers[k] += (nextWeights[j, k] * nextZActDers[j] * nextActCostDers[j]);
+                    double x = nextWeights[k, j];
+                    double y = nextZActDers[j];
+                    double z = nextActCostDers[j];
+                    actCostDers[k] += (x * y * z);
                 }
             }
         }
@@ -177,9 +180,9 @@ namespace NumRecog
                 {
                     weightCostDers[j, k] =
                     (
-                        previousActivations[k] *
-                        zActDers[j] *
-                        actCostDers[j]
+                        previousActivations[j] *
+                        zActDers[k] *
+                        actCostDers[k]
                     );
                 }
             }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Will\\Documents\\Computer Science Year 1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj": {}
+    "C:\\Users\\Will\\Documents\\Computer Science Uni\\ComputerScience_Year1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Will\\Documents\\Computer Science Year 1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj": {
+    "C:\\Users\\Will\\Documents\\Computer Science Uni\\ComputerScience_Year1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Will\\Documents\\Computer Science Year 1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj",
+        "projectUniqueName": "C:\\Users\\Will\\Documents\\Computer Science Uni\\ComputerScience_Year1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj",
         "projectName": "NumRecog",
-        "projectPath": "C:\\Users\\Will\\Documents\\Computer Science Year 1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj",
+        "projectPath": "C:\\Users\\Will\\Documents\\Computer Science Uni\\ComputerScience_Year1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj",
         "packagesPath": "C:\\Users\\Will\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Will\\Documents\\Computer Science Year 1\\MyProjects\\C# ML\\NumRecog\\obj\\",
+        "outputPath": "C:\\Users\\Will\\Documents\\Computer Science Uni\\ComputerScience_Year1\\MyProjects\\C# ML\\NumRecog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Will\\AppData\\Roaming\\NuGet\\NuGet.Config",

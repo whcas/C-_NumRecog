@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CSiX5/DekjmWxprw8Io78cyE/PfY9qtb6ZL6bPfm/uuX8SfhS+tPfWAEDMjwdqS5FDftO64wlJvfoXkd7Wo/eg==",
+  "dgSpecHash": "7Tls626BMC+tLvqDAjXbk6dI37j1n4GSj3ySm8CElqUuCTJdyaUEP5SQhobE8p1xjazriK78+3nK6JcPKJtIUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Will\\Documents\\Computer Science Year 1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj",
+  "projectFilePath": "C:\\Users\\Will\\Documents\\Computer Science Uni\\ComputerScience_Year1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Will\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Will\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
