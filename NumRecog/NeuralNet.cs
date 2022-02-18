@@ -16,17 +16,9 @@ namespace NumRecog
         {
             layers = new NodeLayer(4, 784, 16, 10);
 
-            trainingImages = new ImageBits[trainingNum];
-            for (int i = 0; i < trainingImages.Length; i++)
-            {
-                trainingImages[i] = imageSet[i];
-            }
+            trainingImages = imageSet[0..trainingNum];
 
-            testingImages = new ImageBits[imageSet.Length - trainingNum];
-            for (int i = 0; i < testingImages.Length; i++)
-            {
-                testingImages[i] = imageSet[i + trainingNum];
-            }
+            testingImages = imageSet[trainingNum..imageSet.Length];
         }
 
         public double testCostRandomImage()
