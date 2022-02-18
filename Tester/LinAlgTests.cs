@@ -53,7 +53,8 @@ namespace Tester
         {
             double[] v1 = {3, 8, 5};
             double scaler = 9;
-            double[] result = {
+            double[] result =
+            {
                 3 * 9,
                 8 * 9,
                 5 * 9

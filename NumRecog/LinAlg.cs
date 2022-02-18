@@ -15,7 +15,7 @@ namespace NumRecog
             return output;
         }
 
-        private static double[] addVectors(double[] v1, double[] v2)
+        public static double[] addVectors(double[] v1, double[] v2)
         {
             double[] output = new double[v1.Length];
             for (int i = 0; i < output.Length; i++)
@@ -25,7 +25,7 @@ namespace NumRecog
             return output;
         }
 
-        private static double[] getColumn(double[,] matrix, int index)
+        public static double[] getColumn(double[,] matrix, int index)
         {
             if (matrix.GetLength(0) < index) throw new FormatException();
             

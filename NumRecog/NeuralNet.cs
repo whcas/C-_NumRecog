@@ -42,7 +42,12 @@ namespace NumRecog
             return totalCost / testingImages.Length;
         }
 
-        public void train(int stochasticInterval, int epochLength = -1, bool testEveryEpoch = false, int epochTestSize = 0)
+        public void train(
+            int stochasticInterval,
+            int epochLength = -1,
+            bool testEveryEpoch = false,
+            int epochTestSize = 0
+            )
         {
             WeightAndBiasChanges[][] updates = new WeightAndBiasChanges[stochasticInterval][];
             
