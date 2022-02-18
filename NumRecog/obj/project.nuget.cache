@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CSiX5/DekjmWxprw8Io78cyE/PfY9qtb6ZL6bPfm/uuX8SfhS+tPfWAEDMjwdqS5FDftO64wlJvfoXkd7Wo/eg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Will\\Documents\\Computer Science Year 1\\MyProjects\\C# ML\\NumRecog\\NumRecog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Will\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

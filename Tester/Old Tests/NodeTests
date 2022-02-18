@@ -1,0 +1,85 @@
+using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NumRecog;
+
+namespace TesterOld
+{
+    [TestClass]
+    public class NodeTests
+    {
+        //ImageSet testSet = new ImageSet("C:/Users/Will/Documents/Computer Science Year 1/MyProjects/C# ML/Hand written images/mnist_784.csv");
+
+        
+        [TestMethod]
+        public void Test_ConstructWithNeurons()
+        {   
+            int numNeurons = MLCore.rand.Next(1, 10);
+            Node n = new Node(numNeurons);
+            Assert.AreEqual(numNeurons, n.getNuerons().Count);
+
+            double bias = n.getBias();
+            Assert.IsTrue(bias > -10 && bias < 10, "Random bias generated should be between -10 and 10, not: " + bias);
+
+            for (int i = 0; i < numNeurons; i++)
+            {
+                double w = n.getNuerons()[i].getWeight();
+                Assert.IsTrue(w > -10 && w < 10, "Random weights generated should be between -10 and 10, not: " + w);
+            }
+        }
+
+        [TestMethod]
+        public void Test_ConstructWithoutNeurons()
+        {   
+            Node n = new Node();
+            Assert.IsNull(n.getNuerons());
+            double bias = n.getBias();
+            Assert.IsTrue(bias > -10 && bias < 10, "Random bias generated should be between -10 and 10, not: " + bias);
+        }
+
+        [TestMethod]
+        public void Test_GetValue()
+        {
+            Node n = new Node();
+            n.setValue(10);
+            Assert.AreEqual(10, n.getValue());
+        }
+
+        [TestMethod]
+        public void Test_GetWeight()
+        {
+            int numNeurons = MLCore.rand.Next(1, 10);
+            Node n = new Node(numNeurons);
+
+            int randNeuron = MLCore.rand.Next(numNeurons - 1);
+            Assert.AreEqual(n.getNuerons()[randNeuron].getWeight(), n.getWeight(randNeuron));
+        }
+
+        [TestMethod]
+        public void Test_GetWeights()
+        {
+            int numNeurons = MLCore.rand.Next(1, 10);
+            Node n = new Node(numNeurons);
+
+            List<double> resultWeights = n.getWeights();
+            for (int i = 0; i < numNeurons; i++) Assert.AreEqual(n.getWeight(i), resultWeights[i]);
+        }
+
+        [TestMethod]
+        public void Test_UpdateNeuron()
+        {
+            Node n = new Node(1);
+            double oldW = n.getNuerons()[0].getWeight();
+            n.updateNeuron(0, 10);
+            Assert.AreEqual(oldW + 10, n.getNuerons()[0].getWeight());
+        }
+
+        [TestMethod]
+        public void Test_UpdateBias()
+        {
+            Node n = new Node();
+            double oldBias = n.getBias();
+            n.updateBias(10);
+            Assert.AreEqual(oldBias + 10, n.getBias());
+        }
+    }
+}
