@@ -182,7 +182,8 @@ namespace NumRecog
                     (
                         previousActivations[j] *
                         zActDers[k] *
-                        actCostDers[k]
+                        actCostDers[k] *
+                        -1.0
                     );
                 }
             }
@@ -193,7 +194,7 @@ namespace NumRecog
             biasCostDers = biases;
             for (int j = 0; j < biases.Length; j++)
             {
-                biasCostDers[j] = (zActDers[j] * actCostDers[j]);
+                biasCostDers[j] = (zActDers[j] * actCostDers[j] * -1.0);
             }
         }
 
